@@ -1,0 +1,44 @@
+body {
+    background: rgb(227, 229, 232);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.maincontainer {
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    box-sizing: content-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qrimage {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.twoboxes {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxone {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: x-large;
+    color: rgb(62, 59, 85);
+}
+
+.boxtwo {
+    padding-top: 20px;
+    font-weight: 500;
+    color: rgb(107, 103, 103);
+}
